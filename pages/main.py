@@ -22,7 +22,7 @@ def show_page_for_user(username, auth):
 
 
     # Workers
-    elif username not in operator_machine_group.keys() and username != "damerchi":
+    elif username not in operator_machine_group.keys() and username != "damerchi" and username != "sohrabi":
         user_page(username, auth)
 
     # Manager
