@@ -63,7 +63,7 @@ def get_session():
 
 def fetch_users(username):
     staff_list = operator_workers.get(username)
-    print(staff_list)
+    #print(staff_list)
     if username == "damerchi" or username == "sohrabi":
         """Fetch tasks for a specific staff member."""
         with get_session() as session:

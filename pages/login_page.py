@@ -52,6 +52,7 @@ if authentication_status:
 
     # Set the username in session state
     st.session_state['username'] = username
+    # Add rerun to refresh the page
 
     # Navigate based on the username
     show_page_for_user(username,authenticator)
